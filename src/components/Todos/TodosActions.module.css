@@ -1,0 +1,5 @@
+.todoActions {
+  margin: 0 auto;
+  display: flex;
+  gap: 30px;
+}

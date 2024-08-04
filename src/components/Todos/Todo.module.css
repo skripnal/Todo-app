@@ -1,0 +1,61 @@
+.todoContainer {
+  background-color: #526d82;
+  font-size: 20px;
+  padding: 5px 10px;
+  border-radius: 10px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  transition: all 0.2s;
+}
+
+.todoContainer:hover {
+  box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.3);
+}
+
+.todoContainer p {
+  margin-left: 10px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.icon {
+  min-width: 20px;
+}
+
+.text {
+  width: 80%;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+
+.actions {
+  width: 30%;
+  display: flex;
+  justify-content: end;
+  gap: 7px;
+}
+
+.checkButton {
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.checkButton:hover {
+  color: lime;
+}
+
+.deleteButton {
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.deleteButton:hover {
+  color: rgb(255, 46, 46);
+}
+
+.complited {
+  background-color: rgb(184, 192, 199);
+  color: #000000;
+}

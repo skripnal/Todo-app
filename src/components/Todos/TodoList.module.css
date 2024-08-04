@@ -1,0 +1,11 @@
+.todoList {
+  background-color: #dde6ed;
+  border-radius: 15px;
+  padding: 10px;
+  display: grid;
+  gap: 15px;
+}
+
+.todoListEmpty {
+  place-self: center;
+}
